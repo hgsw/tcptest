@@ -9,6 +9,7 @@ import (
 )
 func main() {
 	tcpAddr, err := net.ResolveTCPAddr("tcp4", ":1200")
+	fmt.Println(">>>>>>>>>>>>>git 测试 >>>>>>>>>>>>>>>>>>>>>>")
 	checkError(err)
 	listener, err := net.ListenTCP("tcp", tcpAddr)
 	checkError(err)
